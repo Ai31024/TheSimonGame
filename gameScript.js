@@ -57,6 +57,14 @@ $(document).ready(function () {
     }
   });
 
+  $("#level-title").on("click", function(){
+    // Start the game only if it's not already started.
+    if (!gameReady) {
+      gameReady = true;
+      nextSequence();
+    }
+  });
+
   // jQuery event listener for button clicks by the user.
   $("div.btn").on("click", function () {
     // Get the ID of the clicked button (color).
