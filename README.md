@@ -99,5 +99,5 @@ TheSimonGame/
 
 This Project is based on the "The Simon Game".
 - [Angela Yu](https://github.com/angelabauer) (Idea and Inspiration)
-- [Ai31024](https://github.com/Ai31023) (Effort and customization)
-- [ChatGPT-4o](https://chatgpt.com) (commenting and README documentaion)
+- [Ai31024](https://github.com/Ai31023) (Effort and Customization)
+- [ChatGPT-4o](https://chatgpt.com) (Commenting and README Documentaion)
