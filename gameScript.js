@@ -41,7 +41,7 @@ $(document).ready(function () {
   function interactiveAnimation(currentColour) {
     var pickedColour = $(`#${currentColour}`);
     pickedColour.addClass("pressed");
-    
+
     // Remove the animation effect after 100 milliseconds.
     setTimeout(function () {
       pickedColour.removeClass("pressed");
@@ -57,7 +57,7 @@ $(document).ready(function () {
     }
   });
 
-  $("#level-title").on("click", function(){
+  $("#level-title").on("click", function () {
     // Start the game only if it's not already started.
     if (!gameReady) {
       gameReady = true;
@@ -106,7 +106,9 @@ $(document).ready(function () {
       }, 200);
 
       // Update the level title to show 'Game Over' and prompt the user to restart.
-      $(`#level-title`).text("Game Over, Press Any Key to Restart");
+      $(`#level-title`).text(
+        "Game Over, Press Any Key or Touch Here to Restart"
+      );
 
       // Restart the game.
       restartGame();
@@ -120,4 +122,3 @@ $(document).ready(function () {
     gameReady = false;
   }
 });
-
