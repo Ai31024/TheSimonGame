@@ -91,3 +91,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.textFormat {
+  color: antiquewhite;
+}
