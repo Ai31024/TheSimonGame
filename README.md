@@ -31,7 +31,7 @@ To run the game locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/TheSimonGame.git
+   git clone https://github.com/Ai31024/TheSimonGame.git
    ```
 
 2. **Navigate to the project directory**:
