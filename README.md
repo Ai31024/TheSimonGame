@@ -73,10 +73,11 @@ Once the game has started:
 ## Project Structure
 
 ```plaintext
-simon-game/
+TheSimonGame/
 │
 ├── sounds/
-│   ├── blue.mp3
+│   ├── wrong.mp3
+|   ├── blue.mp3
 │   ├── green.mp3
 │   ├── red.mp3
 │   └── yellow.mp3
