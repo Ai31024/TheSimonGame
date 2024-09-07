@@ -77,7 +77,7 @@ TheSimonGame/
 │
 ├── sounds/
 │   ├── wrong.mp3
-|   ├── blue.mp3
+│   ├── blue.mp3
 │   ├── green.mp3
 │   ├── red.mp3
 │   └── yellow.mp3
