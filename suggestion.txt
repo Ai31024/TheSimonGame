@@ -1,0 +1,11 @@
+/*
+  This file contains suggestions for improving the simon game.
+*/
+
+function interactiveAnimation(pickedColour) {
+  pickedColour.addClass("pressed");
+  setTimeout(() => pickedColour.removeClass("pressed"), 100);
+}
+
+// When calling it:
+interactiveAnimation($(this));
