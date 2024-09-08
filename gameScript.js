@@ -39,8 +39,13 @@ $(document).ready(function () {
 
   // Function to add an animation effect to the pressed button.
   function interactiveAnimation(currentColour) {
-    currentColour.addClass("pressed");
-    setTimeout(() => currentColour.removeClass("pressed"), 100);
+    var pickedColour = $(`#${currentColour}`);
+    pickedColour.addClass("pressed");
+
+    // Remove the animation effect after 100 milliseconds.
+    setTimeout(function () {
+      pickedColour.removeClass("pressed");
+    }, 100);
   }
 
   // jQuery event listener for a key press to start the game.
