@@ -1,3 +1,8 @@
+/*
+    This code is purely written by [Ai31024](https://github.com/Ai31024)
+    and it is stored here for archival purpose.
+*/
+
 $(document).ready(function () {
   // Array of possible button colors.
   var buttonColours = [`red`, `blue`, `green`, `yellow`];
