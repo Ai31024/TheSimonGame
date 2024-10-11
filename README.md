@@ -30,11 +30,13 @@ You can try out the game by downloading the project and opening the `index.html`
 To run the game locally, follow these steps:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/Ai31024/TheSimonGame.git
    ```
 
 2. **Navigate to the project directory**:
+
    ```bash
    cd TheSimonGame
    ```
@@ -45,6 +47,7 @@ To run the game locally, follow these steps:
 ## Usage
 
 Once the game has started:
+
 - Follow the on-screen instructions.
 - Click the colored buttons in the correct order as indicated by the game's sequence.
 - The game gets progressively harder as the sequence becomes longer with each round.
@@ -72,7 +75,7 @@ Once the game has started:
 
 ## Project Structure
 
-```plaintext
+```bash
 TheSimonGame/
 │
 ├── sounds/
@@ -98,6 +101,7 @@ TheSimonGame/
 ## Acknowledgments
 
 This Project is based on the "The Simon Game".
+
 - [Angela Yu](https://github.com/angelabauer) (Idea and Inspiration)
 - [Ai31024](https://github.com/Ai31023) (Effort and Customization)
 - [ChatGPT-4o](https://chatgpt.com) (Commenting and README Documentaion)
